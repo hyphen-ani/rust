@@ -13,7 +13,7 @@ fn main(){
     let is_above_18 = true;
 
     if is_male{
-        println!("You are Male");
+        println!("You are Male.");
     }else{
         println!("You are female, P.S. Fuck You !, There are only two genders")
     }
@@ -35,8 +35,6 @@ fn main(){
         None => println!("No Character Found In Given Index"),
     }
 
-
-
     // Conditional & Loops
 
     let num: u8 = 6;
@@ -56,6 +54,7 @@ fn main(){
     println!("");
 
     // Iteration Over Array, Vector, String, Maps
+
     let sentence = String::from("Bhupinder Jogi");
     let first_word = get_first_word(sentence);
 
